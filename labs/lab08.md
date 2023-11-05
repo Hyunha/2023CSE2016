@@ -86,9 +86,15 @@ else
     System.out.println("모르는 Key 출현 오류");
 ```
 
-### 실습3 : Dealer 클래스 구현
+### 실습3 : Blackjack 클래스 다이어그램 이해하기
 
-- 아래 인터페이스를 구현하는 Dealer 클래스를 만들어보자.
+- 아래 블랙잭 게임의 클래스 다이어그램을 이해해보자.
+
+<img src="image08/blackjack.png" width="750">
+
+### 실습4 : Dealer 클래스 구현
+
+- 아래 인터페이스를 참고하여 Dealer 클래스를 만들어보자.
 
 ```java
 public interface CardPlayerBehavior {
@@ -103,9 +109,3 @@ public interface CardPlayerBehavior {
 ```
 
 <img src="image08/dealer.png" width="750">
-
-### 실습4 : Blackjack 클래스 다이어그램 이해하기
-
-- 아래 블랙잭 게임의 클래스 다이어그램을 이해해보자.
-
-<img src="image08/blackjack.png" width="750">
