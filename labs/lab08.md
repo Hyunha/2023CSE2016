@@ -77,7 +77,7 @@ Record p = db.find(k);
 BankAccount q = (BankAccount)p;
 System.out.println(q.getBalance());
 
-Key k = q.getKey();
+k = q.getKey();
 if (k instanceof IntegerKey)
     System.out.println(((IntegerKey)k).getInt());
 else if (k instanceof StringKey)
